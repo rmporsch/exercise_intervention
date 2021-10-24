@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "aia"
+version = "0.1.0"
+description = ""
+authors = ["Robert Porsch <rmporsch@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.8.2"
+seaborn = "^0.11.2"
+u8darts = {extras = ["all"], version = "^0.12.0"}
+chalice = "^1.26.1"
+boto3 = "^1.19.2"
+voila = "^0.2.16"
+httpx = "^0.20.0"
+bqplot = "^0.12.31"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+jupyterlab = "^3.2.1"
+jupyterlab-spellchecker = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
